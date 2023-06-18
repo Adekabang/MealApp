@@ -40,6 +40,16 @@ header {
     background-color: #FF3366;
     color: #F6F7F8;
     border: none;
+    box-shadow: 5px 5px #9393938b;
+    transition: 0.25s;
+}
+
+.button:hover {
+    background-color: #ff3366e2;
+    color: #ebebeb;
+    cursor: pointer;
+    box-shadow: 1px 1px #6e6e6e8b;
+    transition: 0.25s;
 }
 
 #result{
